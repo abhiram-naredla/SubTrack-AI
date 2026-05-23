@@ -44,3 +44,27 @@
 - Add lead capture.
 - Add AI-generated summary with fallback.
 - Start writing audit engine tests.
+
+## Day 3 — 2026-05-23
+
+**Hours worked:** 6
+
+**What I did:**
+- Added AI-generated audit summaries
+- Improved audit result UI polish
+- Added lead capture section
+- Created API routes for summaries and lead saving
+- Improved visual hierarchy and SaaS-style presentation
+
+**What I learned:**
+- Good UI polish significantly changes how trustworthy the product feels
+- AI summaries work best when the underlying audit math stays deterministic
+
+**Blockers / what I'm stuck on:**
+- Still improving the interaction flow between audit results and lead capture
+
+**Plan for tomorrow:**
+- Add transactional email flow
+- Add tests and CI
+- Improve accessibility and Lighthouse scores
+- Finalize deployment polish

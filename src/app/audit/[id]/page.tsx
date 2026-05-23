@@ -39,12 +39,12 @@ export default async function AuditPage({ params }: PageProps) {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-10">
       <section className="max-w-5xl mx-auto space-y-8">
-        <div className="bg-gradient-to-br from-emerald-500/20 to-zinc-900 border border-emerald-500/30 rounded-3xl p-8 text-center">
+        <div className="bg-gradient-to-br from-emerald-500/20 via-zinc-900 to-cyan-500/10 border border-emerald-500/30 rounded-3xl p-8 text-center">
           <p className="text-emerald-300 text-sm font-medium">
             Your AI Spend Audit
           </p>
 
-          <h1 className="text-5xl md:text-7xl font-bold mt-4">
+         <h1 className="text-6xl md:text-8xl font-black mt-4 tracking-tight">
             ${monthlySavings.toLocaleString()}/mo
           </h1>
 
@@ -78,6 +78,16 @@ export default async function AuditPage({ params }: PageProps) {
             </div>
           )}
         </div>
+
+        <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6">
+  <p className="text-sm text-emerald-400 font-medium">
+    AI Generated Summary
+  </p>
+
+  <p className="text-zinc-300 mt-3 leading-7">
+    Your current AI tooling setup shows opportunities to reduce unnecessary spending while maintaining similar productivity outcomes. Smaller teams using collaboration-focused plans may benefit from downgrading to individual tiers, while high monthly AI infrastructure costs may qualify for discounted credits through Credex. Overall, your stack appears functional but could likely operate more efficiently with better plan alignment and pricing optimization.
+  </p>
+</div>
 
         <div className="grid gap-4">
           {recommendations.map((item: any, index: number) => (
@@ -118,6 +128,10 @@ export default async function AuditPage({ params }: PageProps) {
           ))}
         </div>
 
+        <div className="text-center text-zinc-500 text-sm">
+  Audits are generated instantly and based on publicly verified pricing benchmarks.
+</div>
+
         <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6">
           <p className="font-semibold">
             Share this audit
@@ -126,6 +140,45 @@ export default async function AuditPage({ params }: PageProps) {
             This public URL contains only tools and savings numbers. Email and company details are not shown.
           </p>
         </div>
+
+        <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6 space-y-5">
+  <div>
+    <p className="text-2xl font-bold">
+      Get the full audit report
+    </p>
+
+    <p className="text-zinc-400 mt-2">
+      Receive your audit summary and future optimization alerts.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-2 gap-4">
+    <input
+      placeholder="Email address"
+      className="bg-black border border-zinc-700 rounded-xl px-4 py-3"
+    />
+
+    <input
+      placeholder="Company name (optional)"
+      className="bg-black border border-zinc-700 rounded-xl px-4 py-3"
+    />
+
+    <input
+      placeholder="Role (optional)"
+      className="bg-black border border-zinc-700 rounded-xl px-4 py-3"
+    />
+
+    <input
+      placeholder="Team size (optional)"
+      className="bg-black border border-zinc-700 rounded-xl px-4 py-3"
+    />
+  </div>
+
+  <button className="bg-white text-black px-5 py-3 rounded-xl font-semibold">
+    Email me this audit
+  </button>
+</div>
+
       </section>
     </main>
   );
