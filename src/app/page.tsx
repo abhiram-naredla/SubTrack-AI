@@ -122,7 +122,9 @@ export default function Home() {
         <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6 space-y-6">
           <div className="grid md:grid-cols-2 gap-4">
             <label className="space-y-2">
-              <span className="text-sm text-zinc-300">Team size</span>
+              <label htmlFor="team-size" className="text-sm text-zinc-300">
+  Team size
+</label>
               <input
                 type="number"
                 min="1"
@@ -133,9 +135,13 @@ export default function Home() {
             </label>
 
             <label className="space-y-2">
-              <span className="text-sm text-zinc-300">Primary use case</span>
+              <label htmlFor="use-case" className="text-sm text-zinc-300">
+  Primary use case
+</label>
               <select
-                value={useCase}
+  id="use-case"
+  name="useCase"
+  value={useCase}
                 onChange={(e) => setUseCase(e.target.value as UseCase)}
                 className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-3"
               >

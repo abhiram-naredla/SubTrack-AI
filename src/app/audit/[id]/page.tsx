@@ -152,40 +152,86 @@ export default async function AuditPage({ params }: PageProps) {
 
         <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6 space-y-5">
   <div>
-    <p className="text-2xl font-bold">
+    <h2 className="text-2xl font-bold">
       Get the full audit report
-    </p>
+    </h2>
 
     <p className="text-zinc-400 mt-2">
       Receive your audit summary and future optimization alerts.
     </p>
   </div>
 
-  <div className="grid md:grid-cols-2 gap-4">
-    <input
-      placeholder="Email address"
-      className="bg-black border border-zinc-700 rounded-xl px-4 py-3"
-    />
+  <form className="space-y-5">
+    <div className="grid md:grid-cols-2 gap-4">
+      <div className="space-y-2">
+        <label htmlFor="email" className="text-sm text-zinc-300">
+          Email address
+        </label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="founder@startup.com"
+          className="bg-black border border-zinc-700 rounded-xl px-4 py-3 w-full"
+        />
+      </div>
 
-    <input
-      placeholder="Company name (optional)"
-      className="bg-black border border-zinc-700 rounded-xl px-4 py-3"
-    />
+      <div className="space-y-2">
+        <label htmlFor="company" className="text-sm text-zinc-300">
+          Company name
+        </label>
+        <input
+          id="company"
+          name="company"
+          type="text"
+          placeholder="Acme AI"
+          className="bg-black border border-zinc-700 rounded-xl px-4 py-3 w-full"
+        />
+      </div>
 
-    <input
-      placeholder="Role (optional)"
-      className="bg-black border border-zinc-700 rounded-xl px-4 py-3"
-    />
+      <div className="space-y-2">
+        <label htmlFor="role" className="text-sm text-zinc-300">
+          Role
+        </label>
+        <input
+          id="role"
+          name="role"
+          type="text"
+          placeholder="Founder / Engineering Manager"
+          className="bg-black border border-zinc-700 rounded-xl px-4 py-3 w-full"
+        />
+      </div>
 
-    <input
-      placeholder="Team size (optional)"
-      className="bg-black border border-zinc-700 rounded-xl px-4 py-3"
-    />
-  </div>
+      <div className="space-y-2">
+        <label htmlFor="lead-team-size" className="text-sm text-zinc-300">
+          Team size
+        </label>
+        <input
+          id="lead-team-size"
+          name="teamSize"
+          type="number"
+          min="1"
+          placeholder="12"
+          className="bg-black border border-zinc-700 rounded-xl px-4 py-3 w-full"
+        />
+      </div>
 
-  <button className="bg-white text-black px-5 py-3 rounded-xl font-semibold">
-    Email me this audit
-  </button>
+      <input
+        type="text"
+        name="website"
+        className="hidden"
+        tabIndex={-1}
+        autoComplete="off"
+      />
+    </div>
+
+    <button
+      type="submit"
+      className="bg-white text-black px-5 py-3 rounded-xl font-semibold"
+    >
+      Email me this audit
+    </button>
+  </form>
 </div>
 
       </section>

@@ -68,3 +68,28 @@
 - Add tests and CI
 - Improve accessibility and Lighthouse scores
 - Finalize deployment polish
+
+## Day 4 — 2026-05-24
+
+**Hours worked:** 6
+
+**What I did:**
+- Added audit engine tests using Vitest
+- Configured GitHub Actions CI
+- Implemented transactional email sending with Resend
+- Added basic abuse protection using a honeypot field
+- Added Open Graph metadata and loading states
+- Improved accessibility and production polish
+
+**What I learned:**
+- Production-quality engineering requires reliability and testing, not just working features.
+- Small polish details significantly improve perceived quality.
+
+**Blockers / what I'm stuck on:**
+- Still improving Lighthouse performance and accessibility scores.
+
+**Plan for tomorrow:**
+- Finalize README and architecture docs
+- Complete GTM/economics files
+- Improve landing page copy
+- Final deployment polish
