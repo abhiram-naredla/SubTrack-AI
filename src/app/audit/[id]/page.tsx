@@ -1,5 +1,14 @@
 import { createClient } from "@supabase/supabase-js";
 
+type Recommendation = {
+  tool: string;
+  plan: string;
+  currentSpend: number;
+  recommendedAction: string;
+  estimatedSavings: number;
+  reason: string;
+};
+
 type PageProps = {
   params: Promise<{
     id: string;
@@ -90,7 +99,7 @@ export default async function AuditPage({ params }: PageProps) {
 </div>
 
         <div className="grid gap-4">
-          {recommendations.map((item: any, index: number) => (
+          {recommendations.map((item: Recommendation, index: number) => (
             <div
               key={index}
               className="bg-zinc-950 border border-zinc-800 rounded-2xl p-5"

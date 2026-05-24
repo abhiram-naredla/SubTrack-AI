@@ -22,15 +22,22 @@ export default function Home() {
   ]);
 
   useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      const parsed = JSON.parse(saved);
+  const saved = localStorage.getItem(STORAGE_KEY);
+
+  if (!saved) return;
+
+  try {
+    const parsed = JSON.parse(saved);
+
+    setTimeout(() => {
       setTeamSize(parsed.teamSize || 3);
       setUseCase(parsed.useCase || "coding");
-      setTools(parsed.tools || tools);
-    }
-  }, []);
-
+      setTools(parsed.tools || []);
+    }, 0);
+  } catch {
+    localStorage.removeItem(STORAGE_KEY);
+  }
+}, []);
   useEffect(() => {
     localStorage.setItem(
       STORAGE_KEY,
