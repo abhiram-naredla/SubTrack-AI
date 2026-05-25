@@ -72,7 +72,7 @@
 
 ## Day 4 — 2026-05-24
 
-**Hours worked:** 6
+**Hours worked:** 4
 
 **What I did:**
 - Added audit engine tests using Vitest

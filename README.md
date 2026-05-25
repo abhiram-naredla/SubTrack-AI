@@ -34,3 +34,41 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# SubTrack AI
+
+SubTrack AI is a free AI spend audit platform that helps startups identify overspending across tools like ChatGPT, Claude, Cursor, Gemini, and Copilot.
+
+The platform generates instant savings recommendations, personalized AI summaries, and shareable audit reports while helping teams discover lower-cost AI infrastructure options.
+
+## Features
+
+- AI spend audit engine
+- Dynamic savings calculations
+- Public shareable audit URLs
+- AI-generated summaries
+- Lead capture + transactional emails
+- GitHub Actions CI
+- Automated audit engine tests
+- Responsive SaaS-style UI
+
+## Screenshots
+
+(Add screenshots here)
+
+## Tech Stack
+
+- Next.js 15
+- TypeScript
+- Tailwind CSS
+- Supabase
+- OpenAI API
+- Resend
+- Vitest
+- GitHub Actions
+
+## Quick Start
+
+```bash
+npm install
+npm run dev
