@@ -94,3 +94,16 @@
 - Complete GTM/economics files
 - Improve landing page copy
 - Final deployment polish
+
+## Day 5 - 2026-05-25
+ 
+ **Hours worked:** 4
+
+Completed the whole assignment.
+The report sending to emial is working now.
+Finalized the README AND archutecture docs.
+Tested using different divices like laptops , mobiles.
+**Plan for tomorrow:**
+Record the wesite usage and find people  for interviews (asking from last 5 days but no one respoded positively,will try asking credex t use and take interview if possible)and by the end of the day i will sub,it the assignment.
+
+
