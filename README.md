@@ -1,44 +1,7 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
 # SubTrack AI
+ live demo link: https://sub-track-ai-tau.vercel.app/
 
 SubTrack AI is a free AI spend audit platform that helps startups identify overspending across tools like ChatGPT, Claude, Cursor, Gemini, and Copilot.
-
 The platform generates instant savings recommendations, personalized AI summaries, and shareable audit reports while helping teams discover lower-cost AI infrastructure options.
 
 ## Features
@@ -53,9 +16,11 @@ The platform generates instant savings recommendations, personalized AI summarie
 - Responsive SaaS-style UI
 
 ## Screenshots
-
-(Add screenshots here)
-
+![alt text](<Screenshot 2026-05-26 000001.png>)
+![alt text](<Screenshot 2026-05-26 000032.png>)
+![alt text](<Screenshot 2026-05-26 000049.png>)
+![alt text](<Screenshot 2026-05-26 010529.png>)
+![alt text](<Screenshot 2026-05-26 010549.png>)
 ## Tech Stack
 
 - Next.js 15
@@ -69,6 +34,26 @@ The platform generates instant savings recommendations, personalized AI summarie
 
 ## Quick Start
 
-```bash
+## Environment Variables
+
+Create a `.env.local` file with:
+
+env
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+OPENAI_API_KEY=
+RESEND_API_KEY=
+
+
+# ADD TESTING SECTION
+
+md id="xjlwm0"
+## Testing
+
+Run tests:
+
+bash
+npm run test:run
+bash
 npm install
 npm run dev

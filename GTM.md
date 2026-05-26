@@ -12,7 +12,7 @@ Freelancers
 AI consultants
 SaaS startups with growing AI costs
 
-Main Problem
+Main Problem:
 
 A lot of startups start using AI tools very fast without really tracking the spending properly.
 
@@ -22,10 +22,7 @@ extra seats nobody uses
 expensive plans they don’t actually need
 AI tools overlapping with each other
 
-Most founders already feel like they’re overspending, but they don’t know:
-where the money is going
-how much they could save
-what they can downgrade safely
+Most founders already feel like they’re overspending, but they don’t know where the money is going, how much they could save, what they can downgrade safely.
 
 Distribution Strategy
 1. Twitter / X Founder Community
@@ -80,11 +77,7 @@ Conversion Strategy
 The idea is simple:
 give users value before asking for anything.
 
-Instead of forcing signups immediately, the product:
-
-shows savings first
-gives useful insights upfront
-asks for email only after the user sees value
+Instead of forcing signups immediately, the product shows savings first and gives useful insights upfront and asks for email only after the user sees value
 
 This helps build trust and reduces bounce rate.
 This Could Work because,AI spending is growing really fast for startups.
