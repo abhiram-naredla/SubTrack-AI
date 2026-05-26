@@ -104,6 +104,8 @@ The report sending to emial is working now.
 Finalized the README AND archutecture docs.
 Tested using different divices like laptops , mobiles.
 **Plan for tomorrow:**
-Record the wesite usage and find people  for interviews (asking from last 5 days but no one respoded positively,will try asking credex t use and take interview if possible)and by the end of the day i will sub,it the assignment.
+Record the wesite usage and find people  for interviews (asking from last 5 days but no one respoded positively,will try asking credex t use and take interview if possible)and by the end of the day i will submit the assignment.
+
+## Day 6- 2026-05-26
 
 
