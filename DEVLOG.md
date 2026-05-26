@@ -108,4 +108,18 @@ Record the wesite usage and find people  for interviews (asking from last 5 days
 
 ## Day 6- 2026-05-26
 
+ **Hours worked:** 5
 
+uploaded the screenshots of the website to public folder.
+recorded the demo video.
+ Polished every file in this assignment ,tested the website for any tiny ui errors.
+ chechked the performance using lighthouse
+ the scores are 
+ 1.performance = 70
+ 2.accesibility = 95
+ 3.best practices = 100
+ 4.SEO = 100
+verified the email flow for recieving the audit report through email, it is working very well.
+ 
+ still finding people for the interviews , some of my friends have agreed for the interview but they were busy today so i will complete the interviews tomorow and submit the assignment tomorrow morning.
+ Thats all for today.
