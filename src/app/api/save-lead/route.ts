@@ -9,11 +9,16 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
+    const teamSize =
+      body.teamSize && body.teamSize !== ""
+        ? Number(body.teamSize)
+        : null;
+
     const { error } = await supabase.from("leads").insert({
       email: body.email,
-      company_name: body.companyName,
-      role: body.role,
-      team_size: body.teamSize,
+      company_name: body.companyName || null,
+      role: body.role || null,
+      team_size: teamSize,
     });
 
     if (error) {
@@ -25,7 +30,7 @@ export async function POST(req: Request) {
     console.error(error);
 
     return Response.json(
-      { success: false },
+      { success: false, error: "Failed to save lead" },
       { status: 500 }
     );
   }
