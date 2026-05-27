@@ -28,7 +28,8 @@ The platform generates instant savings recommendations, personalized AI summarie
 - Tailwind CSS
 - Supabase
 - OpenAI API
-- Resend
+- Nodemailer
+- Gmail SMTP
 - Vitest
 - GitHub Actions
 
@@ -42,7 +43,8 @@ env
 NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 OPENAI_API_KEY=
-RESEND_API_KEY=
+GMAIL_USER=
+GMAIL_APP_PASSWORD=
 
 
 # ADD TESTING SECTION

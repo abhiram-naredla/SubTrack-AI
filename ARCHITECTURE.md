@@ -1,6 +1,6 @@
 # System Architecture
 
-```mermaid
+mermaid
 flowchart TD
     User --> Form
     Form --> AuditEngine
@@ -8,4 +8,4 @@ flowchart TD
     AuditEngine --> ResultsPage
     ResultsPage --> LeadCapture
     LeadCapture --> EmailAPI
-    EmailAPI --> Resend
+    EmailAPI -->GmailSMTP

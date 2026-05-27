@@ -18,3 +18,5 @@ I guided AI to complete this assignment according to the guidelines provided by 
 It occasionally give incorrect codes or unclear steps.i had to fix them repeatedly.
 
 In this assignment i used Ai tools to Accelerate my work, not to replace my thinking.
+
+At last before the submission deadline, while testing i have discovered that the email is not working with other emails except mine so i resolved this issue by changing it from RESEND to gmail SMTP and nodemailer. 
