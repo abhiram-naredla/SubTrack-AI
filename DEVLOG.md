@@ -124,7 +124,7 @@ verified the email flow for recieving the audit report through email, it is work
  still finding people for the interviews , some of my friends have agreed for the interview but they were busy today so i will complete the interviews tomorow and submit the assignment tomorrow morning.
  Thats all for today.
 
- ## Day 6- 2026-05-27
+ ## Day 7- 2026-05-27
 
  found an error where the audit report is not able to send to emails except mine. so i found that by using RESEND we need a domain to do that , i dont have one so i change it from RESEND to mail SMTP and nodemailer, you just have to give mail id and app password then the audit reports are sent using your mail id.
  Atlast completed the user interviews but i could only find 2 people for it so i became the 3rd person because i used this for more than 2 days i know more about it than any other person.
