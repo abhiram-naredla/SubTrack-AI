@@ -33,7 +33,8 @@ The platform generates instant savings recommendations, personalized AI summarie
 - Vitest
 - GitHub Actions
 
-## Quick Start
+## demo video link
+https://youtu.be/dZFf5IbBS-w
 
 ## Environment Variables
 
